@@ -39,6 +39,9 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
@@ -100,6 +103,7 @@
       <workItem from="1619376791438" duration="2108000" />
       <workItem from="1619635902739" duration="11113000" />
       <workItem from="1619723667423" duration="855000" />
+      <workItem from="1621765309968" duration="455000" />
     </task>
     <servers />
   </component>

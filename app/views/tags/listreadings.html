@@ -1,25 +1,25 @@
 <table class="ui fixed table">
-  <thead>
+    <thead>
     <tr>
-      <th>Code</th>
-      <th>Temperature</th>
-      <th>Wind Speed</th>
-      <th></th>
+        <th>Code</th>
+        <th>Temperature</th>
+        <th>Wind Speed</th>
+        <th></th>
     </tr>
-  </thead>
-  <tbody>
+    </thead>
+    <tbody>
     #{list items:_station.readings, as:'reading'}
-      <tr>
+    <tr>
         <td>
-          ${reading.code}
+            ${reading.code}
         </td>
         <td>
-          ${reading.temperature}
+            ${reading.temperature}
         </td>
-        <td>        
-          ${reading.windSpeed}
+        <td>
+            ${reading.windSpeed}
         </td>
-      </tr>
+    </tr>
     #{/list}
-  </tbody>
+    </tbody>
 </table>
